@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#000;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:45px;
+	
+}
+#frame{
+	width:75%;
+	height:100%;
+	position:absolute;
+	margin-left:10%;
+	background-color:#000;
+	background-image:url(6.jpeg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	
+	
+}
+header{
+	width:100%;
+	height:10%;
+	background-color:#FF6;
+	overflow:hidden;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
+nav{
+	width:100%;
+	height:5%;
+	background-color:#003;
+	text-align:center;
+}
+h1 {
+	text-align:center;
+	color:#30C;	
+	}
+	
+ul{
+	list-style:none;
+	background-color:#309;
+	text-align:center;
+	padding: 0;
+	margin: 0;	
+}
+li{
+	line-height:100px;
+	height: 100%;
+	width:25%;
+	float:left;
+}
+a {
+	color:#FF3;
+	text-decoration:none;
+}
+aside{
+		width:30%;
+		height:65%;
+		float:left;
+		text-align:end;
+		color:#FFF;
+		
+}
+article{
+		width:70%;
+		height:35%;
+		float:left;
+		text-align:left;
+		color:#FFF;
+		font-size:38px;
+		
+}
+figcaption{
+			text-align:end;
+			font-size:44px;
+			font-family:"Times New Roman", Times, serif;
+}
+
+#storre{
+	font-size:125px;
+}
